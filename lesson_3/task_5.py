@@ -9,8 +9,7 @@ def my_funk():
         new_list = input("Enter some numbers separated by a space: ").split(" ")
         try:
             for i in new_list:
-                i = int(i)
-                my_list.append(i)
+                my_list.append(int(i))
         except ValueError:
             break
         print(sum(my_list))

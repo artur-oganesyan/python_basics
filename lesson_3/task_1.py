@@ -10,7 +10,7 @@ def divide(dividend, divisor):
         result = "Division by zero is impossible"
     except ValueError:
         result = "Variables should be a numbers"
-    print("Quotient: ", result)
+    print("Quotient:", result)
 
 
 a = input("Enter dividend: ")
