@@ -26,18 +26,13 @@ class Cell:
         return Cell(self.size // other.size)
 
     def make_order(self, order):
-        result = str()
-        for row in range(self.size // order):
-            result += "*" * order + "\n"
-        result += "*" * (self.size % order)
-        return result
-
+        return "".join("*" * order + "\n" for _ in range(self.size // order)) + ("*" * (self.size % order))
 
 cell_1 = Cell(3)
 cell_2 = Cell(10)
 
-add_cell = cell_1 + cell_2  # 30
-sub_cell_1 = cell_1 - cell_2  #
+add_cell = cell_1 + cell_2
+sub_cell_1 = cell_1 - cell_2
 sub_cell_2 = cell_2 - cell_1
 mul_cell = cell_1 * cell_2
 div_cell_1 = cell_1 / cell_2
