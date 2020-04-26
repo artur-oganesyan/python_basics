@@ -1,0 +1,56 @@
+{
+    "Printer": [
+        {
+            "equipment_type": "Printer",
+            "brand": "HP",
+            "model": "326fedg",
+            "serial_number": "234213sd",
+            "print_type": "laser",
+            "two_sided_printing": true
+        },
+        {
+            "equipment_type": "Printer",
+            "brand": "Canon",
+            "model": "fsdfsd",
+            "serial_number": "er3452",
+            "print_type": "jet",
+            "two_sided_printing": false
+        }
+    ],
+    "Scanner": [
+        {
+            "equipment_type": "Scanner",
+            "brand": "Canon",
+            "model": "g2345",
+            "serial_number": "fsag3253",
+            "scan_type": "250",
+            "resolutions": "1920-1080"
+        },
+        {
+            "equipment_type": "Scanner",
+            "brand": "Epson",
+            "model": "23",
+            "serial_number": "hbfgd435sd",
+            "scan_type": "250",
+            "resolutions": "1920-1080"
+        }
+    ],
+    "Shredder": [
+        {
+            "equipment_type": "Shredder",
+            "brand": "HP",
+            "model": "gs342",
+            "serial_number": "gfas3425sd",
+            "basket_volume": 15,
+            "max_destroyed_sheets": 10
+        },
+        {
+            "equipment_type": "Shredder",
+            "brand": "Lenovo",
+            "model": "fge2",
+            "serial_number": "gresf52",
+            "basket_volume": 5,
+            "max_destroyed_sheets": 5
+        }
+    ]
+}
